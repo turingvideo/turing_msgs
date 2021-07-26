@@ -1,0 +1,9 @@
+
+int32 running_mode
+string master_run_id
+int32 carto_node_pid
+time laserscan_update_time
+time odometry_update_time
+bool localization_status
+float32 localization_score
+int32 active_submap_num
