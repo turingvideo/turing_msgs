@@ -12,6 +12,13 @@ add_message_files(
   FILES
   GroveSensorData.msg
   SlamStatus.msg
+  DockMode.msg
+  IMUInfo.msg
+  Ultrasonic.msg
+  TFMiniPlusDistance.msg
+  Extrinsics.msg
+  Confidence.msg
+  DepthParam.msg
 )
 
 generate_messages(
