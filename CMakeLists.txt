@@ -19,6 +19,7 @@ add_message_files(
   Extrinsics.msg
   Confidence.msg
   DepthParam.msg
+  ChassisGetData.msg
 )
 
 generate_messages(
