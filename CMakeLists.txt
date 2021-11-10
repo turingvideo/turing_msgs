@@ -5,6 +5,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  geometry_msgs
+  actionlib_msgs
   message_generation
 )
 
@@ -23,10 +25,21 @@ add_message_files(
   ChassisStatus.msg
   ChassisEvent.msg
 )
-
+add_service_files(
+    FILES
+    ChassisCmd.srv
+    Switch2DMode.srv
+)
+add_action_files(
+  DIRECTORY action
+  FILES Dock.action
+  Undock.action
+)
 generate_messages(
   DEPENDENCIES
   std_msgs
+  actionlib_msgs
+  geometry_msgs
 )
 
 catkin_package(

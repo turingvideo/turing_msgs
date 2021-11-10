@@ -4,7 +4,7 @@
   <version>0.0.1</version>
   <description>The turing_msgs package</description>
 
-  <maintainer email="ray@turingvideo.com">Ray</maintainer>
+  <maintainer email="chendongfang@turingvideo.net">Ray</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -17,6 +17,8 @@
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
