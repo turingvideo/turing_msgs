@@ -20,6 +20,8 @@ add_message_files(
   Confidence.msg
   DepthParam.msg
   ChassisGetData.msg
+  ChassisStatus.msg
+  ChassisEvent.msg
 )
 
 generate_messages(
