@@ -1,3 +1,5 @@
 string cmd
+int32 in_value
 ---
 string res
+int32 out_value
