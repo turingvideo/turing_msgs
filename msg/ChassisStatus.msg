@@ -1,5 +1,4 @@
-std_msgs/Header header
-bool init_success
-int8 battery_voltage
-bool electrodes_connected
-uint8 charge_status
+uint64 timestamp
+float32 battery_voltage
+bool hardware_estop
+bool charge_status
