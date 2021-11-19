@@ -29,13 +29,14 @@ add_message_files(
   NavStatus.msg
   ReachPoint.msg
   Lifecycle.msg
-  CancelJourney.srv
-  MoveAlongPath.srv
+
 )
 add_service_files(
     FILES
     ChassisCmd.srv
     Switch2DMode.srv
+    CancelJourney.srv
+    MoveAlongPath.srv
 )
 add_action_files(
   DIRECTORY action

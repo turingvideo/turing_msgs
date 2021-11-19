@@ -11,7 +11,7 @@ std_msgs/Header header
 string journeyId
 
 # target point, valid when journey is running
-Waypoint target
+WayPoint target
 
 # if estop is on
 bool estopped

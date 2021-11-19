@@ -19,7 +19,7 @@ string journeyId
 string lifecycleEvent
 
 # which point is move toward
-Waypoint target
+WayPoint target
 
 # enum errorCode & human readable errorMessage
 # valid only when lifecycleEvent == error

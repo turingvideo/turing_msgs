@@ -4,10 +4,10 @@
 
 std_msgs/Header header
 
-stirng journeyId
+string journeyId
 
 # The waypoint reached (or passing)
-Waypoint point
+WayPoint point
 
 # index of reached point in the journey path
 int32 index
