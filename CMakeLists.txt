@@ -24,6 +24,13 @@ add_message_files(
   ChassisGetData.msg
   ChassisStatus.msg
   ChassisEvent.msg
+  PathRequirements.msg
+  WayPoint.msg
+  NavStatus.msg
+  ReachPoint.msg
+  Lifecycle.msg
+  CancelJourney.srv
+  MoveAlongPath.srv
 )
 add_service_files(
     FILES
