@@ -1,5 +1,12 @@
 # WayPoint.msg
+
 # point type, usually empty
+# PASSBY_POINT
+# ACTION_POINT
+# ELEVATOR_ENTER_POINT
+# ELEVATOR_BASE_POINT
+# ELEVATOR_EXIT_POINT
+# CHARGING_BASE_POINT
 string type
 
 # pose, whose theta should be >= -pi and <= pi, other values are equal to not given
