@@ -19,6 +19,7 @@ bool estopped
 # robot is blocked or not
 bool pathBlocked
 bool targetBlocked
+bool robotBlocked
 bool planningFailed
 
 # is doing obstacle avoidance or not

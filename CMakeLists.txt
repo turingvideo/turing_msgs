@@ -42,6 +42,7 @@ add_action_files(
   DIRECTORY action
   FILES Dock.action
   Undock.action
+  Navigation.action
 )
 generate_messages(
   DEPENDENCIES
