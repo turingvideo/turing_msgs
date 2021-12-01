@@ -9,8 +9,5 @@ string journeyId
 # The waypoint reached (or passing)
 WayPoint point
 
-# index of reached point in the journey path
-int32 index
-
 # how many points left
 int32 left
