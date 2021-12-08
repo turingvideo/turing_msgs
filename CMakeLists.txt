@@ -24,11 +24,19 @@ add_message_files(
   ChassisGetData.msg
   ChassisStatus.msg
   ChassisEvent.msg
+  PathRequirements.msg
+  WayPoint.msg
+  NavStatus.msg
+  ReachPoint.msg
+  Lifecycle.msg
+
 )
 add_service_files(
     FILES
     ChassisCmd.srv
     Switch2DMode.srv
+    CancelJourney.srv
+    MoveAlongPath.srv
 )
 add_action_files(
   DIRECTORY action

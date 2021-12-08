@@ -1,0 +1,14 @@
+# CancelJourney.srv
+# service: /nav_serv/cancel_journey
+# caller -> nav_serv
+
+# journey id
+string journeyId
+
+---
+
+# A blocking call -- when the service returns, there is no running journey
+# If there's a running journey, stop it and return true
+# If failed to cancel, return false
+# If there's no running journey on getting this request, do nothing and return true 
+bool accepted

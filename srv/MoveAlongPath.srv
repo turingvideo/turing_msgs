@@ -1,0 +1,17 @@
+# MoveAlongPath.srv
+# service: /nav_serv/move_along_path
+# caller -> nav_serv
+
+# journey id
+string journeyId
+
+# the path, whose length must be at least 1
+WayPoint[] path
+
+# partial requirements, can be anly length
+PathRequirements[] partialRequirements
+
+---
+
+# Return if this journey will run
+bool accepted
