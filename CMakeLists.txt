@@ -29,6 +29,8 @@ add_message_files(
   NavStatus.msg
   ReachPoint.msg
   Lifecycle.msg
+  NaviVelAndAccLimit.msg
+  TuringPath.msg
 
 )
 add_service_files(
