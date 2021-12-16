@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  nav_msgs
   geometry_msgs
   actionlib_msgs
   message_generation
@@ -51,6 +52,7 @@ generate_messages(
   std_msgs
   actionlib_msgs
   geometry_msgs
+  nav_msgs
 )
 
 catkin_package(
