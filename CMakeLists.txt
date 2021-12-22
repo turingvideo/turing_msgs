@@ -40,6 +40,7 @@ add_service_files(
     Switch2DMode.srv
     CancelJourney.srv
     MoveAlongPath.srv
+    MoveCmd.srv
 )
 add_action_files(
   DIRECTORY action
