@@ -1,6 +1,6 @@
 # cmd : "suspend" "stop" "resume"
-# "stop" cmd only stop 0.5s.
-# "suspend" cmd just stop controller.
+# "suspend" cmd only stop 0.5s.
+# "stop" cmd can stop controller.
 # when controller was suspend ,send "resume" cmd can continue 
 # follow last path.
 string cmd 
