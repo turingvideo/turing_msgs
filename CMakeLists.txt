@@ -47,6 +47,7 @@ add_action_files(
   FILES Dock.action
   Undock.action
   Navigation.action
+  GenerateGlobalCostmap.action
 )
 generate_messages(
   DEPENDENCIES

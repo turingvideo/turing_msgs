@@ -1,0 +1,9 @@
+#goal
+string map_path
+---
+#result
+bool success
+string message
+---
+#feedback
+string message
