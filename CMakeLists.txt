@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  nav_msgs
   geometry_msgs
   actionlib_msgs
   message_generation
@@ -29,6 +30,8 @@ add_message_files(
   NavStatus.msg
   ReachPoint.msg
   Lifecycle.msg
+  NaviVelAndAccLimit.msg
+  TuringPath.msg
 
 )
 add_service_files(
@@ -37,17 +40,21 @@ add_service_files(
     Switch2DMode.srv
     CancelJourney.srv
     MoveAlongPath.srv
+    MoveCmd.srv
 )
 add_action_files(
   DIRECTORY action
   FILES Dock.action
   Undock.action
+  Navigation.action
+  GenerateGlobalCostmap.action
 )
 generate_messages(
   DEPENDENCIES
   std_msgs
   actionlib_msgs
   geometry_msgs
+  nav_msgs
 )
 
 catkin_package(

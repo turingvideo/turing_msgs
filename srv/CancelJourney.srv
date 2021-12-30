@@ -2,9 +2,6 @@
 # service: /nav_serv/cancel_journey
 # caller -> nav_serv
 
-# journey id
-string journeyId
-
 ---
 
 # A blocking call -- when the service returns, there is no running journey

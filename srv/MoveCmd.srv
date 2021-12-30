@@ -1,0 +1,8 @@
+# cmd : "suspend" "stop" "resume"
+# "suspend" cmd only stop 0.5s.
+# "stop" cmd can stop controller.
+# when controller was suspend ,send "resume" cmd can continue 
+# follow last path.
+string cmd 
+---
+bool res
