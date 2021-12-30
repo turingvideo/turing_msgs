@@ -32,6 +32,7 @@ add_message_files(
   Lifecycle.msg
   NaviVelAndAccLimit.msg
   TuringPath.msg
+  MotorStatus.msg
 
 )
 add_service_files(
