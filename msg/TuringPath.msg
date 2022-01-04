@@ -1,2 +1,3 @@
 nav_msgs/Path path
 NaviVelAndAccLimit motion_param
+bool is_need_start_align
