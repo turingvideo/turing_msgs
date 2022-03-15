@@ -33,8 +33,8 @@ add_message_files(
   NaviVelAndAccLimit.msg
   TuringPath.msg
   MotorStatus.msg
-
 )
+
 add_service_files(
     FILES
     ChassisCmd.srv
@@ -42,7 +42,9 @@ add_service_files(
     CancelJourney.srv
     MoveAlongPath.srv
     MoveCmd.srv
+    GetGoalReachedStatus.srv
 )
+
 add_action_files(
   DIRECTORY action
   FILES Dock.action
@@ -50,6 +52,7 @@ add_action_files(
   Navigation.action
   GenerateGlobalCostmap.action
 )
+
 generate_messages(
   DEPENDENCIES
   std_msgs
