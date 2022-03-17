@@ -5,8 +5,6 @@ WayPoint waypoint
 string final_state # successful (succeeded), canceled (preempted), timeout (aborted)
 ---
 # feedback
-float64 translational_distance # in meters (set to -1.0 if no value)
-float64 rotational_distance # in degrees (set to -1.0 if no value)
 string current_state  
 ## current_state
 # "approaching" (minimising translational distance),
