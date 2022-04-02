@@ -43,6 +43,8 @@ add_service_files(
     MoveAlongPath.srv
     MoveCmd.srv
     GetGoalReachedStatus.srv
+    RequestPlan.srv
+    StopPlanning.srv
 )
 
 add_action_files(

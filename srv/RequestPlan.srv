@@ -1,0 +1,15 @@
+geometry_msgs/PoseStamped goal
+int32 plan_mode
+float64 translationTolerance  # meter
+float64 rotationTolerance  # degree
+bool init_flag
+
+---
+# True if the latest plan has higher score or if a plan is feasible when there was no previous plans
+bool has_better_plan
+
+geometry_msgs/PoseStamped[] plan
+bool sync_flag
+# NavStatus error feedbacks
+string[] error_msgs
+
