@@ -33,6 +33,7 @@ add_message_files(
   NaviVelAndAccLimit.msg
   TuringPath.msg
   MotorStatus.msg
+  PlanEvaluation.msg
 )
 
 add_service_files(
