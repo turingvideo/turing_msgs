@@ -2,6 +2,9 @@ geometry_msgs/PoseStamped goal
 int32 plan_mode
 float64 translationTolerance  # meter
 float64 rotationTolerance  # degree
+float64 straight_plan_min_thresh
+float64 straight_plan_res
+float64 astar_plan_max_ratio
 bool init_flag
 
 ---
@@ -12,4 +15,3 @@ geometry_msgs/PoseStamped[] plan
 bool sync_flag
 # NavStatus error feedbacks
 string[] error_msgs
-
