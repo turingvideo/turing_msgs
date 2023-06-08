@@ -1,0 +1,7 @@
+# GetGoalReachedStatus.srv
+
+---
+# Return true if goal reached
+# Return false if goal is not reached, or no available goal
+bool translational_goal_reached
+bool rotational_goal_reached
