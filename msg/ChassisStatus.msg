@@ -1,4 +1,4 @@
 uint64 timestamp
 float32 battery_level
-uint32 charge_status
+int32 charge_status
 bool hardware_estop
