@@ -38,6 +38,7 @@ add_message_files(
 
 add_service_files(
     FILES
+    Service.srv
     ChassisCmd.srv
     Switch2DMode.srv
     CancelJourney.srv
