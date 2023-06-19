@@ -17,6 +17,7 @@ add_message_files(
   SlamStatus.msg
   DockMode.msg
   IMUInfo.msg
+  ImuRpy.msg
   Ultrasonic.msg
   TFMiniPlusDistance.msg
   Extrinsics.msg
