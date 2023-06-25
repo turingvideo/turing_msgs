@@ -1,0 +1,4 @@
+bool cmd
+---
+bool res 
+string message

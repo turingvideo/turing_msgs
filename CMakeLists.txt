@@ -34,6 +34,15 @@ add_message_files(
   TuringPath.msg
   MotorStatus.msg
 
+  error_code_fb.msg
+	motor_work_mode_fb.msg
+	speed_fb.msg
+	ticks_fb.msg
+	bms_fb.msg
+	chassis_ctrl_src_fb.msg
+	chassis_mileage_meter_fb.msg
+	chassis_mode_fb.msg
+
 )
 add_service_files(
     FILES
@@ -42,6 +51,24 @@ add_service_files(
     CancelJourney.srv
     MoveAlongPath.srv
     MoveCmd.srv
+
+    ros_enable_chassis_rotate_cmd.srv
+    ros_get_chassis_rotate_switch_cmd.srv
+    ros_clear_chassis_error_code_cmd.srv
+    ros_get_chassis_SN_cmd.srv
+    ros_get_load_param_cmd.srv
+    ros_get_sw_version_cmd.srv
+    ros_get_vel_max_feedback_cmd.srv
+    ros_set_chassis_enable_cmd.srv
+    ros_set_chassis_poweroff_cmd.srv
+    ros_set_load_param_cmd.srv
+    ros_set_vel_max_cmd.srv
+    chassis_send_event.srv
+    ros_reset_host_power_cmd.srv
+    ros_start_chassis_left_rotate_cmd.srv
+    ros_start_chassis_right_rotate_cmd.srv
+    ros_stop_chassis_rotate_cmd.srv
+    ros_switch_cmd.srv 
 )
 add_action_files(
   DIRECTORY action
@@ -49,6 +76,8 @@ add_action_files(
   Undock.action
   Navigation.action
   GenerateGlobalCostmap.action
+
+  ros_set_iap_cmd.action
 )
 generate_messages(
   DEPENDENCIES
